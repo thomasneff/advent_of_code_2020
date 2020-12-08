@@ -154,12 +154,6 @@ int main()
 
 	// we need to count all potential child bags of "shiny gold", which is recursive - so we simply multiply up the numbers iteratively instead
 
-	/*
-	for(const auto& child : bag_map["shiny gold"].children)
-	{
-	    nodes_to_process.push_back(child);
-	}
-	*/
 	int number_of_child_bags = 0;
 
 	while(nodes_to_process.empty() == false)
